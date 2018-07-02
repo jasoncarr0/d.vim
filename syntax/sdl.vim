@@ -23,8 +23,7 @@ syn match sdlAttribute      "\w*\s*=" contains=sdlAssign
 syn match sdlStatement      "^\s*[a-zA-Z:]*"
 
 " Keyword grouping
-syn keyword sdlInfo         name description copyright authors license
-syn keyword sdlStructure    buildRequirements buildType configuration
+syn keyword sdlNull         null
 syn keyword sdlBoolean      true false on off
 
 syn keyword sdlTodo         contained TODO FIXME XXX
@@ -70,7 +69,7 @@ syn case match
 
 " Define the default highlighting.
 " Only used when an item doesn't have highlighting yet
-hi def link sdlInfo                 Constant
+hi def link sdlNull                 Constant
 hi def link sdlAssign               Special
 hi def link sdlBoolean              Boolean
 hi def link sdlFormat               SpecialChar
@@ -82,7 +81,6 @@ hi def link sdlOctalZero            PreProc  " link this to Error if you want
 hi def link sdlFloat                Float
 hi def link sdlCommentError         Error
 hi def link sdlCommentStartError    Error
-hi def link sdlStructure            Structure
 hi def link sdlString               String
 hi def link sdlComment              Comment
 hi def link sdlTodo                 Todo
