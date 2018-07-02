@@ -1,14 +1,16 @@
 " Vim syntax file for DUB configurations."
 "
-" Language:     SDLang (dub config)
-" Maintainer:   Jesse Phillips <Jesse.K.Phillips+D@gmail.com>
-" Last Change:  2015-07-11
+" Language:     SDLang
+" Maintainer: Jason Carr <jcarr250@gmail.com>
+" Last Change:  2018-07-01
 "
+" Previously, as SDL for Dub:
+" Original Maintainer:   Jesse Phillips <Jesse.K.Phillips+D@gmail.com>
 " Contributors:
 "   - Joakim Brannstrom <joakim.brannstrom@gmx.com>
 "
 " Please submit bugs/comments/suggestions to the github repo:
-" https://github.com/JesseKPhillips/d.vim
+" https://github.com/jasoncarr0/sdl.vim
 
 " Quit when a (custom) syntax file was already loaded
 if exists("b:current_syntax")
